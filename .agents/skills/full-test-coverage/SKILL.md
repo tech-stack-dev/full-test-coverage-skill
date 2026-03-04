@@ -3,7 +3,7 @@ name: full-test-coverage
 description: "Read this skill to write, generate, or add test code. Trigger when: (1) user asks to write, add, create, or generate tests of any kind (unit tests, integration tests, API tests, E2E tests, Playwright tests, Vitest tests); (2) user has code with missing or zero tests and wants coverage; (3) user just implemented a new service, endpoint, feature, or module and needs tests for it; (4) user refactored code and wants to verify nothing broke with tests; (5) user wants to improve or expand existing test coverage. This skill produces complete, pyramid-shaped test suites — reads the code, selects only the necessary layers (unit/integration/API/E2E), and generates every file needed (schema tests, service tests, factories, helpers, cleanup utilities, spec files) following strict Vitest and Playwright patterns. Skip this skill when debugging failing tests, asking how to use testing APIs or tools, explaining testing concepts, configuring test runners, reviewing existing test code, or migrating between test frameworks."
 ---
 
-# Full Coverage — Test Generation
+# Full Test Coverage — Test Generation
 
 Generate the right tests for every layer of the testing pyramid: unit, integration, API, and E2E. The skill analyzes the code, selects the correct layers, and implements each one following strict guidelines.
 
