@@ -65,18 +65,6 @@ Trigger the skill with any of these:
  for 401, 403, 404, and 400 validation failures."
 ```
 
-### Usage tips
-
-**Serverless and Lambda handlers** — The skill's scope discovery scans for HTTP route handlers and service classes. If your domain includes Lambda functions or serverless handlers that live in a separate directory (e.g., `functions/`, `lambdas/`, `handlers/`), point the skill at them explicitly:
-
-```
-"Add full test coverage for the audio generation feature.
- The handler lives in functions/audio-generation.ts and calls
- AudioGenerationService in src/services/."
-```
-
-Without an explicit pointer, standalone serverless handlers outside the main source tree may be missed during scope discovery.
-
 ### What it does not do
 
 The skill is not triggered by — and will not help with — these:
